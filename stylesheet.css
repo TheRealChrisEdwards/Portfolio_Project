@@ -47,7 +47,7 @@ div#homeText {
 }
 
 #portfolio_HomePage {
-  height: 1000px;
+  /* height: 1000px; */
   display: block;
   background: url('images/material_back_18.jpg') no-repeat center center fixed;
   -webkit-background-size: 100% 100%;           /* Safari 3.0 */
@@ -57,7 +57,7 @@ div#homeText {
 }
 
 #portfolio_AboutPage {
-  height: 1000px;
+  /* height: 1000px; */
   display: block;
   background: url('images/back25.png') no-repeat center center scroll;
   -webkit-background-size: 100% 100%;           /* Safari 3.0 */
@@ -68,7 +68,7 @@ div#homeText {
 }
 
 #portfolio_PortfolioPage {
-  height: 1000px;
+  /* height: 1000px; */
   display: block;
   background: url('images/wall-loading_screen.jpeg') no-repeat center center scroll;
   -webkit-background-size: 100%;           /* Safari 3.0 */
@@ -79,7 +79,7 @@ div#homeText {
 }
 
 #portfolio_ContactPage {
-  height: 1000px;
+  /* height: 1000px; */
   display: block;
   background: url('images/material_40_sm.jpg') no-repeat center center scroll;
   -webkit-background-size: 100% 100%;           /* Safari 3.0 */
