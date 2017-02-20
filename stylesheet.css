@@ -1,3 +1,5 @@
+/* Complete container for entire single-page */
+
 html {
 }
 
@@ -8,9 +10,11 @@ body {
 .container-fluid {
 }
 
+/* Global styling: Tag elements & Bootstrap class elements, etc. */
+
 .jumbotron {
   background-color: transparent;
-  margin-top: 50px;
+  margin-top: 50px; /* Change to percent% or rem */
 }
 
 .well {
@@ -21,30 +25,7 @@ h1 {
   text-align: center;
 }
 
-#AboutPageHeader {
-  color: #FEFEFE;
-}
-
-#PortfolioPageHeader {
-  color: #00A5D2;
-}
-
-#ContactPageHeader {
-
-}
-
-div#homeText {
-  margin-top: 4rem;
-  padding-top: 10px;
-  text-indent: 8%;
-}
-#profilePic {
-  height: 80%;
-  border: 6px solid #029BE4;
-  border-radius: 30px;
-  padding: 0px 0px;
-  overflow: hidden;
-}
+/* Portfolio Page layout structure & corresponding #ID divisions */
 
 #portfolio_HomePage {
   /* height: 1000px; */
@@ -64,7 +45,7 @@ div#homeText {
      -moz-background-size: 100% 100%;           /* Gecko 1.9.2 (Firefox 3.6) */
        -o-background-size: 100% 100%;           /* Opera 9.5 */
           background-size: 100% 100%;
-  margin-top: -50px;
+  margin-top: -50px; /* Change to percent% or rem */
 }
 
 #portfolio_PortfolioPage {
@@ -75,7 +56,7 @@ div#homeText {
      -moz-background-size: 100%;           /* Gecko 1.9.2 (Firefox 3.6) */
        -o-background-size: 100%;           /* Opera 9.5 */
           background-size: 100%;
-  margin-top: -20px;
+  margin-top: -20px; /* Change to percent% or rem */
 }
 
 #portfolio_ContactPage {
@@ -86,11 +67,39 @@ div#homeText {
      -moz-background-size: 100% 100%;           /* Gecko 1.9.2 (Firefox 3.6) */
        -o-background-size: 100% 100%;           /* Opera 9.5 */
           background-size: 100% 100%;
-  margin-top: -20px;
+  margin-top: -20px; /* Change to percent% or rem */
 }
 
 #footer {
-  margin: 30px auto;
+  margin: 30px auto; /* Change to percent% or rem */
   text-align: center;
   color: #FEFEFE;
+}
+
+/* All other indivdual page elements by their #ID  */
+
+#AboutPageHeader {
+  color: #FEFEFE;
+}
+
+#PortfolioPageHeader {
+  color: #00A5D2;
+}
+
+#ContactPageHeader {
+
+}
+
+div#homeText {
+  margin: 4rem auto;
+  padding-top: 10px; /* Change to percent% or rem */
+  text-indent: 8%;
+}
+#profilePic {
+  height: 50%;
+  margin: auto auto;
+  border: 6px solid #029BE4;
+  border-radius: 20%; /* 30px; */
+  padding: 0px 0px;
+  overflow: hidden;
 }
