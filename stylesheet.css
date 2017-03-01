@@ -76,7 +76,7 @@ h1 {
   color: #FEFEFE;
 }
 
-/* All other indivdual page elements by their #ID  */
+/* All other page elements & components by their #ID  */
 
 #AboutPageHeader {
   color: #FEFEFE;
@@ -97,7 +97,7 @@ div#homeText {
 }
 #profilePic {
   height: 10%;
-  margin: auto auto;
+  margin: 0 auto 70px;
   border: 6px solid #029BE4;
   border-radius: 20%; /* 30px; */
   padding: 0px 0px;
