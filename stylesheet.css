@@ -19,13 +19,14 @@ body {
 
 .well {
   background-color: #A0A988;
+  text-align: justify;
 }
 
 h1 {
   text-align: center;
 }
 
-/* Portfolio Page layout structure & corresponding #ID divisions */
+/* Portfolio Page layout structure #ID divisions */
 
 #portfolio_HomePage {
   /* height: 1000px; */
@@ -94,12 +95,30 @@ div#homeText {
   margin: 4rem auto;
   padding-top: 10px; /* Change to percent% or rem */
   text-indent: 8%;
+  text-align: justify;
 }
+
 #profilePic {
-  height: 10%;
-  margin: 0 auto 70px;
   border: 6px solid #029BE4;
   border-radius: 20%; /* 30px; */
-  padding: 0px 0px;
   overflow: hidden;
+}
+
+/* Desktop screen-size (viewport > 900px; approx tablet) exclusive styles */
+@media (min-width: 900px) {
+
+  .well {
+    margin: 50px auto;
+    padding: 60px 50px;
+  }
+
+  img#profilePic {
+    width: 70%;
+    margin: 0 auto 70px;
+  }
+
+  div#homeText {
+    padding-right: 50px;
+  }
+
 }
